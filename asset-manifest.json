@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/rhymelab/static/js/main.5b81d26f.chunk.js",
-    "main.js.map": "/rhymelab/static/js/main.5b81d26f.chunk.js.map",
+    "main.js": "/rhymelab/static/js/main.3b604ace.chunk.js",
+    "main.js.map": "/rhymelab/static/js/main.3b604ace.chunk.js.map",
     "runtime-main.js": "/rhymelab/static/js/runtime-main.c0b49131.js",
     "runtime-main.js.map": "/rhymelab/static/js/runtime-main.c0b49131.js.map",
     "static/js/2.58b41ff0.chunk.js": "/rhymelab/static/js/2.58b41ff0.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.c0b49131.js",
     "static/js/2.58b41ff0.chunk.js",
-    "static/js/main.5b81d26f.chunk.js"
+    "static/js/main.3b604ace.chunk.js"
   ]
 }
