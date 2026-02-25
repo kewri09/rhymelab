@@ -48,7 +48,7 @@ export default function App() {
 
   // 韻辞書をロード
   useEffect(() => {
-    fetch("/vowel_dictionary.json")
+    fetch(process.env.PUBLIC_URL +"/vowel_dictionary.json")
       .then((res) => res.json())
       .then(setRhymeDict);
   }, []);
@@ -138,7 +138,7 @@ export default function App() {
             let vowelSeq: string | undefined;
 
             // まず母音列を見つける
-            Object.entries(rhymeGroups as Record<string, number[]>).forEach(
+            Object.entries(rhymeGroups).forEach(
               ([v, idxs]) => {
                 if (idxs.includes(i)) {
                   vowelSeq = v;

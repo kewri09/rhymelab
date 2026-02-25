@@ -42,7 +42,7 @@ const deferred = new Deferred();
 let _tokenizer = null;
 let isLoading = false;
 
-export function getTokenizer(options = { dicPath: "/dict" }) {
+export function getTokenizer(options = { dicPath: process.env.PUBLIC_URL + "/dict" }) {
   if (_tokenizer) {
     return Promise.resolve(_tokenizer);
   }

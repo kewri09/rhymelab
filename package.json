@@ -9,19 +9,20 @@
   ],
   "main": "src/index.js",
   "dependencies": {
-    "kuromoji": "0.1.2",
-    "zlibjs": "0.3.1",
     "@emotion/react": "11.4.1",
     "@emotion/styled": "11.3.0",
     "@mui/icons-material": "5.0.0-rc.0",
     "@mui/material": "5.0.0-rc.0",
+    "d3-scale-chromatic": "3.1.0",
+    "js-hira-kata-romanize": "1.0.5",
+    "kuromoji": "0.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-scripts": "4.0.0",
-    "js-hira-kata-romanize": "1.0.5",
-    "d3-scale-chromatic": "3.1.0"
+    "zlibjs": "0.3.1"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "typescript": "3.8.3"
   },
   "scripts": {
